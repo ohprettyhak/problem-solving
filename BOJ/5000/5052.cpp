@@ -19,14 +19,14 @@ int main() {
 		bool here = false;
 		for (int i = 0; i < n - 1; i++) {
 			int curLen = numbers[i].length();
-            int nextLen = numbers[i + 1].length();
+			int nextLen = numbers[i + 1].length();
 			
 			if (curLen >= nextLen) continue;
 			
 			if (numbers[i + 1].substr(0, curLen)== numbers[i]) {
-            	here = true;
-            	break;
-            }
+				here = true;
+				break;
+			}
 		}
 		
 		if (here) printf("NO\n");
