@@ -7,5 +7,5 @@
 	<a href="https://solved.ac/officeman" target="_blank"><img src="http://mazandi.herokuapp.com/api?handle=officeman" alt="mazandi profile"/></a>
 </div>
 <br />
-<p>&middot;&npsp;<a href="https://solved.ac/officeman" target="_blank">@officeman</a></p>
-<p>&middot;&npsp;목표: 전역 전 티어 플레티넘</p>
+<p>&middot;&nbsp;<a href="https://solved.ac/officeman" target="_blank">@officeman</a></p>
+<p>&middot;&nbsp;목표: 전역 전 티어 플레티넘</p>
