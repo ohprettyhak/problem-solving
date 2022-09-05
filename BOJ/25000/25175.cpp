@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+
+    int n, m, k;
+	cin >> n >> m >> k;
+
+	cout << ((m - 1) + (k - 3) % n + n) % n + 1 << '\n';
+    
+    return 0;
+}
