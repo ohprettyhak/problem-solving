@@ -12,7 +12,6 @@ bool compare(const pair<int, int>& a, const pair<int, int>& b) {
 int main() {
     FASTIO;
 
-    priority_queue<ll> pq;
     pair<int, int> line[1000000];
     int n;
 
