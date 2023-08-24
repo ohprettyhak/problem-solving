@@ -23,19 +23,13 @@ fun main() = with(System.`in`.bufferedReader()) {
     var result = value[0]; var pos = 0
     command.forEach {
         if (pos == value.size - 1 && it != 'C') return@forEach
-        
-        if (it == 'S') {
-            result -= value[++pos]
-        } else if (it == 'M') {
-            result *= value[++pos]
-        } else if (it == 'U') {
+        if (it == 'S') result -= value[++pos]
+        else if (it == 'M') result *= value[++pos]
+        else if (it == 'U') {
             if (result < 0) result = -1 * (-1 * result / value[++pos])
             else result /= value[++pos]
-        } else if (it == 'P') {
-            result += value[++pos]
-        } else if (it == 'C') {
-            sb.append("$result ")
-        }
+        } else if (it == 'P') result += value[++pos]
+        else if (it == 'C') sb.append("$result ")
     }
     
     if (output) println(sb.toString())
